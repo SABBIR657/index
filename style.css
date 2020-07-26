@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+body{
+    background-color: #eeeeee;
+}
+.box{
+   max-width:  400px;
+    padding: 10px;
+    border: 1px solid #dddddd ;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 90px;
+    background-color: white;
+    height:450px;
+
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    float: left;
+    
+}
+.header1{
+    font-size:18px ;
+    font-weight: normal;
+    /* border-left: 5px solid gainsboro; */
+    padding-top: 10px;
+    
+}
+.header2{
+    font-weight: normal;
+    color: gray;
+    padding-top: 10px;
+}
+.header3{
+    padding-top: 25px;
+    font-weight: normal;
+    font-size: 17px;
+}
+#user-name{
+    margin-top: 35px;
+    padding: 10px;
+
+}
+input{
+    width: 320px;
+    border-radius: 5px;
+    border-color: paleturquoise;
+}
+#user-password{
+    margin-top: 10px;
+    padding:10px;
+}
+input:hover{
+    border-color: blue ;
+}
+.log-in{
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    background-color:#1976d2     ;
+    color: white;
+    font-weight: bold;
+    
+}
+p{
+    width: 320px;
+    border-radius: 5px;
+    border-color: paleturquoise;
+    margin:0 auto;
+}
+p:hover{
+    background-color: blue;
+}
+.a-tag{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color:#64b5f6;
+}
+a:hover{
+    color:#2196f3;
+}
